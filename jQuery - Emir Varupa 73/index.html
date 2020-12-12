@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Emir Varupa 73</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> <!-- IKONE ZA HEADER -->
+   <script src="https://kit.fontawesome.com/3adf55c169.js" crossorigin="anonymous"></script>  <!-- IKONE ZA HEADER -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jQuery -->
+   <script src="jquery.js"></script>
+  </head>
+  <body>
+ <div class="content">
+  <!-- HEADER -->
+   <div class='header'>
+     <div><img class="logo" src='images/EVLogo.png'/></div>
+     <input type="checkbox" id="chkbox">
+     <!-- hamburger barovi -->
+     <label for="chkbox" class="prikazi-menu">
+       <i class="fas fa-bars"></i>
+    </label>
+     <ul class='menu'>
+      <li><a href='#'>Početak</a></li>
+       <li><a href='#Ouradjenom-sekcija'>O urađenom</a></li>
+       <li><a href='#Slike-sekcija'>Slike</a></li>
+     </ul>
+   </div>
+ </div>
+
+ <!-- O MENI -->
+
+  <div class="hr" id="Ouradjenom-sekcija">O urađenom</div>
+  <div class="slikatekstblock">
+    <div class="slika-o-uradjenom"></div>
+    <div class="tekst-o-uradjenom">
+      <h1>Emir Varupa</h1>
+      <br>
+      <p>Za ovaj projekat potrebno je bilo napraviti neku funkcionalnost koristeći jQuery, u ovom slučaju urađene su dvije funkcionalnosti: slideup/slidedown i zoom-in/zoom-out efekat. slideup/slidedown možete aktivirati tako što kliknete na sliku pored ovog paragrafa. zoom-in/zoom-out efekat možete aktivirati tako što pređete kursorom preko slika koje se nalaze u sekciji slike. Sve slike su preuzete sa stranice Unsplash. Sve slike koje se nalaze u sekciji slike su nasumično odabrane i mjenjaju se svaki put kada se stranica osvježi.</p> 
+    </div>
+  </div>
+
+  <!-- Slike -->
+
+  <div class="hr" id="Slike-sekcija">Slike</div>
+      <div class="slikecontainer">
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/641x850" /></div>
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/642x850" /></div>
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/643x850" /></div>
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/644x850" /></div>
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/645x850" /></div>
+        <div class="item"><img class="jqimg" src="https://source.unsplash.com/random/646x850" /></div>
+      </div>
+    </div>
+  </body>
+</html>
